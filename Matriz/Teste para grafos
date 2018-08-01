@@ -1,0 +1,45 @@
+Pares não adjacentes
+
+A, B
+a1(A-B), a2(B-A)
+
+A, B, C, D
+a1(B-C), a2(A-C), a3(A-B)
+
+G, H, J, I
+a1(G-H), a2(G-J), a3(G-I), a4(H-J), a5(H-I)
+
+
+Há Arestas Paralelas / Vertice Ajdajacente A Ele Msm
+
+J, C, E, P, M, T, Z, U
+a1(J-C), a2(C-E), a3(E-C), a4(P-P), a5(T-Z), a6(T-P)
+
+
+Não Há Arestas Paralelas / Vertice Ajdajacente A Ele Msm
+
+M, T, Z, U, P, J, C
+a1(J-C), a4(P-P), a5(T-Z), a6(T-P)
+
+
+Não Há Arestas Paralelas / Não Há Vertice Ajdajacente A Ele Msm
+
+J, C, E, P, M, T, Z, U
+a1(J-C), a2(C-M), a3(E-C), a4(P-J), a5(T-Z), a6(T-P)
+
+Grafo Completo
+
+J, C, E, P, M
+a1(J-C), a2(C-M), a3(E-C), a4(P-J), a5(E-P), a6(P-M), a7(M-J), a8(J-E), a9(P-C), a10(M-E)
+
+A, B, C, D, E
+a1(A-B), a2(B-C), a3(C-A)
+
+A, B, C, D
+a1(A-B), a2(B-C), a3(C-D), a4(A-C), a5(B-D), a6(A-D)
+
+
+
+
+
+
